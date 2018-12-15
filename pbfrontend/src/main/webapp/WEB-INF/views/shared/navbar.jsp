@@ -1,30 +1,31 @@
 <div id="sidebar-wrapper">
             <ul class="sidebar-nav">
-                <li class="sidebar-brand">
-                    <a href="#">
+                <li id="home" class="sidebar-brand">
+                    <a href="${contextRoot}/home">
                         Start Bootstrap
                     </a>
                 </li>
                 <li>
-                    <a href="#">Dashboard</a>
+                    <a id="dashboard" href="${contextRoot}/profile">Dashboard</a>
                 </li>
                 <li>
-                    <a href="#">Shortcuts</a>
+                    <a  href="#">Shortcuts</a>
                 </li>
                 <li>
-                    <a href="#">Overview</a>
+                    <a  href="#">Overview</a>
                 </li>
                 <li>
-                    <a href="#">Events</a>
+                    <a  href="#">Events</a>
                 </li>
                 <li>
-                    <a href="#">About</a>
+                    <a id="about" href="${contextRoot}/about">About</a>
                 </li>
                 <li>
-                    <a href="#">Services</a>
+                    <a  href="#">Services</a>
                 </li>
                 <li>
-                    <a href="#">Contact</a>
+                    <a id="contact" href="${contextRoot}/contact">Contact</a>
                 </li>
             </ul>
+            
         </div>
